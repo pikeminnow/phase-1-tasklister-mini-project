@@ -1,18 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-debugger;
   document.getElementById("create-task-form").addEventListener('submit', (event) => {
-    debugger;
     event.preventDefault();
     const task = document.getElementById("new-task-description").value;
-    debugger;
     const li = document.createElement('li');
-    debugger;
     const taskLi = li.append(task);
-    debugger;
     document.getElementById("tasks").append(li);
     document.getElementById("new-task-description").value = "";
-    debugger;
   });
 });
 
