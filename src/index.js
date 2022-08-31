@@ -11,6 +11,7 @@ debugger;
     const taskLi = li.append(task);
     debugger;
     document.getElementById("tasks").append(li);
+    document.getElementById("new-task-description").value = "";
     debugger;
   });
 });
